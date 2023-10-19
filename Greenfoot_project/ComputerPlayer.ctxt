@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ComputerPlayer
+comment0.text=\r\n\ \r\n
+comment1.params=name
+comment1.target=ComputerPlayer(java.lang.String)
+comment2.params=b
+comment2.target=Piece\ selectPieceToPlace(Board)
+comment2.text=\r\n\ Randomly\ select\ a\ piece\ from\ the\ AvailablePieces\ in\ the\ board\r\n
+comment3.params=b\ p
+comment3.target=Space\ selectSpaceForPlacement(Board,\ Piece)
+comment3.text=\r\n\ Randomly\ select\ an\ empty\ Space\ on\ the\ board\r\n
+numComments=4

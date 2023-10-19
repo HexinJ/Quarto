@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Piece
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Piece\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=isDark\ isRound\ isTall\ isHollow
+comment1.target=Piece(boolean,\ boolean,\ boolean,\ boolean)
+comment2.params=descr
+comment2.target=Piece(java.lang.String)
+comment3.params=attributeType
+comment3.target=boolean\ is(int)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=Piece\ clone()
+comment6.params=other
+comment6.target=boolean\ equals(java.lang.Object)
+numComments=7

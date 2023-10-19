@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=MsgBox
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Status\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=type
+comment1.target=MsgBox(int)
+comment2.params=
+comment2.target=MsgBox()
+comment3.params=
+comment3.target=greenfoot.GreenfootImage\ getImage()
+comment4.params=
+comment4.target=void\ guessLength()
+comment5.params=text\ gfFont
+comment5.target=int\ msgLength(java.lang.String,\ greenfoot.Font)
+numComments=6

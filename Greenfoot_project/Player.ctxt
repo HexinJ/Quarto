@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Player\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=name\ isComputerPlayer
+comment1.target=Player(java.lang.String,\ boolean)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Player\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=Piece\ selectPiece()
+comment4.params=
+comment4.target=void\ addWin()
+comment5.params=
+comment5.target=int\ getWins()
+comment6.params=
+comment6.target=void\ printDebugInfo()
+numComments=7

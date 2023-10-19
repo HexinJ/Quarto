@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CPFraniJulie
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ CPFraniJulie\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=name
+comment1.target=CPFraniJulie(java.lang.String)
+comment2.params=b
+comment2.target=Piece\ selectPieceToPlace(Board)
+comment3.params=b\ p
+comment3.target=boolean\ q(Board,\ Piece)
+comment4.params=b\ p
+comment4.target=Space\ selectSpaceForPlacement(Board,\ Piece)
+comment4.text=\r\n\ Smartly\ select\ an\ empty\ Space\ on\ the\ board\r\n
+comment5.params=l\ p
+comment5.target=Space\ spaceToBlock(Line,\ Piece)
+comment5.text=\r\n\ given\ line\ l\ and\ piece\ p\r\n\ if\ the\ line\ has\ three\ in\ a\ row\ that\ are\ the\ same\ attribute,\ and\ p\ is\ of\ opposite\r\n\ attribute\ return\ the\ space\ in\ the\ line\ tp\ place\ p\r\n\ otherwise\ return\ null;\r\n
+numComments=6

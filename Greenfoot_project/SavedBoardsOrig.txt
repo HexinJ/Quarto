@@ -1,0 +1,90 @@
+Scenario A: Empty Board  
+0
+Spaces:
+(0,0):----	(0,1):----	(0,2):----	(0,3):----	
+(1,0):----	(1,1):----	(1,2):----	(1,3):----	
+(2,0):----	(2,1):----	(2,2):----	(2,3):----	
+(3,0):----	(3,1):----	(3,2):----	(3,3):----	
+Lines:
+line #0: (0,0)	(0,1)	(0,2)	(0,3)	isFull = false	isQuarto = false	
+line #1: (1,0)	(1,1)	(1,2)	(1,3)	isFull = false	isQuarto = false	
+line #2: (2,0)	(2,1)	(2,2)	(2,3)	isFull = false	isQuarto = false	
+line #3: (3,0)	(3,1)	(3,2)	(3,3)	isFull = false	isQuarto = false	
+line #4: (0,0)	(1,0)	(2,0)	(3,0)	isFull = false	isQuarto = false	
+line #5: (0,1)	(1,1)	(2,1)	(3,1)	isFull = false	isQuarto = false	
+line #6: (0,2)	(1,2)	(2,2)	(3,2)	isFull = false	isQuarto = false	
+line #7: (0,3)	(1,3)	(2,3)	(3,3)	isFull = false	isQuarto = false	
+line #8: (0,0)	(1,1)	(2,2)	(3,3)	isFull = false	isQuarto = false	
+line #9: (0,3)	(1,2)	(2,1)	(3,0)	isFull = false	isQuarto = false
+Scenario B: No Quartos and No Filled Lines
+1-LQTX-(2,0)-LRSX-(2,1)-LRTX-(2,2)-DQTX-(1,0)-DQSO-(1,1)-DQSX-(1,3)-DRTX-(0,0)
+Spaces:
+(0,0):DRTX 	(0,1):----	(0,2):----	(0,3):----	
+(1,0):DQTX 	(1,1):DQSO 	(1,2):----	(1,3):DQSX 	
+(2,0):LQTX 	(2,1):LRSX 	(2,2):LRTX 	(2,3):----	
+(3,0):----	(3,1):----	(3,2):----	(3,3):----	
+Lines:
+line #0: (0,0)	(0,1)	(0,2)	(0,3)	isFull = false	isQuarto = false	
+line #1: (1,0)	(1,1)	(1,2)	(1,3)	isFull = false	isQuarto = false	
+line #2: (2,0)	(2,1)	(2,2)	(2,3)	isFull = false	isQuarto = false	
+line #3: (3,0)	(3,1)	(3,2)	(3,3)	isFull = false	isQuarto = false	
+line #4: (0,0)	(1,0)	(2,0)	(3,0)	isFull = false	isQuarto = false	
+line #5: (0,1)	(1,1)	(2,1)	(3,1)	isFull = false	isQuarto = false	
+line #6: (0,2)	(1,2)	(2,2)	(3,2)	isFull = false	isQuarto = false	
+line #7: (0,3)	(1,3)	(2,3)	(3,3)	isFull = false	isQuarto = false	
+line #8: (0,0)	(1,1)	(2,2)	(3,3)	isFull = false	isQuarto = false	
+line #9: (0,3)	(1,2)	(2,1)	(3,0)	isFull = false	isQuarto = false
+Scenario C: No Quartos but Lines Filled on 1 Vertical, 1 Horizontal, and 1 Diagonal  
+0-LQSX-(2,0)-LRSX-(2,1)-DQTX-(2,2)-DRSO-(2,3)-DRTX-(0,1)-DQSX-(1,1)-LRSO-(3,1)-DQSO-(3,3)-DRSX-(1,3)-LRTO-(0,0)
+Spaces:
+(0,0):LRTO 	(0,1):DRTX 	(0,2):----	(0,3):----	
+(1,0):----	(1,1):DQSX 	(1,2):----	(1,3):DRSX 	
+(2,0):LQSX 	(2,1):LRSX 	(2,2):DQTX 	(2,3):DRSO 	
+(3,0):----	(3,1):LRSO 	(3,2):----	(3,3):DQSO 	
+Lines:
+line #0: (0,0)	(0,1)	(0,2)	(0,3)	isFull = false	isQuarto = false	
+line #1: (1,0)	(1,1)	(1,2)	(1,3)	isFull = false	isQuarto = false	
+line #2: (2,0)	(2,1)	(2,2)	(2,3)	isFull = true	isQuarto = false	
+line #3: (3,0)	(3,1)	(3,2)	(3,3)	isFull = false	isQuarto = false	
+line #4: (0,0)	(1,0)	(2,0)	(3,0)	isFull = false	isQuarto = false	
+line #5: (0,1)	(1,1)	(2,1)	(3,1)	isFull = true	isQuarto = false	
+line #6: (0,2)	(1,2)	(2,2)	(3,2)	isFull = false	isQuarto = false	
+line #7: (0,3)	(1,3)	(2,3)	(3,3)	isFull = false	isQuarto = false	
+line #8: (0,0)	(1,1)	(2,2)	(3,3)	isFull = true	isQuarto = false	
+line #9: (0,3)	(1,2)	(2,1)	(3,0)	isFull = false	isQuarto = false	
+Scenario D: One Quarto - Shorts on the Diagonal
+1-LQTX-(2,0)-LRSX-(2,1)-LRTX-(2,2)-DQTX-(1,0)-DQSO-(1,1)-DQSX-(1,3)-DRTX-(0,0)-LRTO-(2,3)-LQSX-(1,0)-DQSX-(0,0)-DQSO-(2,0)-DRTX-(3,0)-LRSX-(2,1)-DQTX-(1,1)-DRSX-(0,1)-LRSO-(3,1)-DQTO-(3,2)-LRTX-(2,2)-DRSO-(3,3)-DRTO-(1,3)-LQSO-(1,2)-LRTO-(0,2)-LQTX-(0,3)-LQTO-(2,3)-DQSX-(0,0)-DQSO-(1,1)-LRSO-(2,2)-LRSX-(2,0)-DQTX-(2,1)-DRSX-(1,2)-DRTX-(0,2)-LQSO-(3,2)-DQTO-(2,3)-LQSX-(3,3)
+Spaces:
+(0,0):DQSX 	(0,1):----	(0,2):DRTX 	(0,3):----	
+(1,0):----	(1,1):DQSO 	(1,2):DRSX 	(1,3):----	
+(2,0):LRSX 	(2,1):DQTX 	(2,2):LRSO 	(2,3):DQTO 	
+(3,0):----	(3,1):----	(3,2):LQSO 	(3,3):LQSX 	
+Lines:
+line #0: (0,0)	(0,1)	(0,2)	(0,3)	isFull = false	isQuarto = false	
+line #1: (1,0)	(1,1)	(1,2)	(1,3)	isFull = false	isQuarto = false	
+line #2: (2,0)	(2,1)	(2,2)	(2,3)	isFull = true	isQuarto = false	
+line #3: (3,0)	(3,1)	(3,2)	(3,3)	isFull = false	isQuarto = false	
+line #4: (0,0)	(1,0)	(2,0)	(3,0)	isFull = false	isQuarto = false	
+line #5: (0,1)	(1,1)	(2,1)	(3,1)	isFull = false	isQuarto = false	
+line #6: (0,2)	(1,2)	(2,2)	(3,2)	isFull = true	isQuarto = false	
+line #7: (0,3)	(1,3)	(2,3)	(3,3)	isFull = false	isQuarto = false	
+line #8: (0,0)	(1,1)	(2,2)	(3,3)	isFull = true	isQuarto = true	
+line #9: (0,3)	(1,2)	(2,1)	(3,0)	isFull = false	isQuarto = false	
+Scenario E: Three Quartos-Short on Horizontal, Hollow on Vertical, Square on Diagonal
+1-LQSX-(3,0)-DQSX-(2,1)-DQTX-(1,2)-LRSO-(1,3)-LQSO-(2,3)-LRTO-(3,3)-LRSX-(0,0)-DRSX-(0,1)-DRSO-(0,2)-DQSO-(0,3)
+Spaces:
+(0,0):LRSX 	(0,1):DRSX 	(0,2):DRSO 	(0,3):DQSO 	
+(1,0):----	(1,1):----	(1,2):DQTX 	(1,3):LRSO 	
+(2,0):----	(2,1):DQSX 	(2,2):----	(2,3):LQSO 	
+(3,0):LQSX 	(3,1):----	(3,2):----	(3,3):LRTO 	
+Lines:
+line #0: (0,0)	(0,1)	(0,2)	(0,3)	isFull = true	isQuarto = true	
+line #1: (1,0)	(1,1)	(1,2)	(1,3)	isFull = false	isQuarto = false	
+line #2: (2,0)	(2,1)	(2,2)	(2,3)	isFull = false	isQuarto = false	
+line #3: (3,0)	(3,1)	(3,2)	(3,3)	isFull = false	isQuarto = false	
+line #4: (0,0)	(1,0)	(2,0)	(3,0)	isFull = false	isQuarto = false	
+line #5: (0,1)	(1,1)	(2,1)	(3,1)	isFull = false	isQuarto = false	
+line #6: (0,2)	(1,2)	(2,2)	(3,2)	isFull = false	isQuarto = false	
+line #7: (0,3)	(1,3)	(2,3)	(3,3)	isFull = true	isQuarto = true	
+line #8: (0,0)	(1,1)	(2,2)	(3,3)	isFull = false	isQuarto = false	
+line #9: (0,3)	(1,2)	(2,1)	(3,0)	isFull = true	isQuarto = true	

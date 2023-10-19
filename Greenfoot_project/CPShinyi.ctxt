@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=CPShinyi
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ CPShinyi\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=name
+comment1.target=CPShinyi(java.lang.String)
+comment2.params=b
+comment2.target=Piece\ selectPieceToPlace(Board)
+comment3.params=b\ p
+comment3.target=Space\ selectSpaceForPlacement(Board,\ Piece)
+comment4.params=b
+comment4.target=boolean\ isBoardThirto(Board)
+numComments=5

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CPJonahRonan
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ CPJonahRonan\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=name
+comment1.target=CPJonahRonan(java.lang.String)
+comment2.params=b
+comment2.target=Piece\ selectPieceToPlace(Board)
+comment3.params=b\ p
+comment3.target=Space\ selectSpaceForPlacement(Board,\ Piece)
+comment4.params=b
+comment4.target=boolean\ remainingPiecesAreQuarto(Board)
+comment5.params=a
+comment5.target=Space\ returnOneEmptyAndOthersSame(Line)
+comment6.params=a\ att\ value
+comment6.target=int\ countOfAtt(Line,\ int,\ boolean)
+numComments=7

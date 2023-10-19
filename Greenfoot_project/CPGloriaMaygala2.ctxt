@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=CPGloriaMaygala2
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ CPGloriaMaygala2\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=name
+comment1.target=CPGloriaMaygala2(java.lang.String)
+comment2.params=b
+comment2.target=Piece\ selectPieceToPlace(Board)
+comment2.text=\r\n\ avoid\ giving\ a\ piece\ that\ will\ make\ a\ Quarto.\r\n
+comment3.params=b\ p
+comment3.target=Space\ selectSpaceForPlacement(Board,\ Piece)
+comment3.text=\r\n\ place\ if\ it\ makes\ a\ Quarto.\ Otherwise\ place\ randomly.\r\n
+comment4.params=b
+comment4.target=java.util.ArrayList\ PiecesThatMakeQuarto(Board)
+comment4.text=\r\n\ return\ an\ arraylist\ of\ pieces\ that\ will\ make\ a\ Quarto.\r\n
+comment5.params=p\ b
+comment5.target=boolean\ isQuartoPiece(Piece,\ Board)
+comment5.text=\r\n\ return\ true\ if\ the\ piece\ can\ make\ a\ Quarto.\r\n
+comment6.params=line
+comment6.target=java.lang.String\ dangerousAttribute(Line)
+comment6.text=\r\n\ return\ the\ symbol\ of\ a\ attribute\ that\ will\ make\ a\ Quarto\ in\ a\ line\r\n
+numComments=7

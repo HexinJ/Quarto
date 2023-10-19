@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=BattleSplash
+comment1.params=qw
+comment1.target=BattleSplash(QuartoWorld)
+comment2.params=
+comment2.target=greenfoot.GreenfootImage\ getImage()
+comment3.params=shortN
+comment3.target=java.lang.String\ longVersionOf(java.lang.String)
+comment4.params=
+comment4.target=void\ act()
+numComments=5

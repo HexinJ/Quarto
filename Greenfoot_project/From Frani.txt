@@ -1,0 +1,46 @@
+Old  - 115/199   237/398 = .59
+
+public Piece selectPieceToPlace(Board b)
+    {
+
+        ArrayList<Piece> availablePieces = b.getAvailablePieces();
+
+        if (availablePieces.size() > 0){
+            for(int i = 0; i<availablePieces.size(); i++){
+                if(!q(b, availablePieces.get(i)))
+                    return availablePieces.get(i);
+
+            }
+
+            return availablePieces.get((int)(Math.random()*availablePieces.size()));
+        }
+        return null;
+    }
+
+    public boolean q(Board b, Piece p){
+        ArrayList<Piece> availablePieces = b.getAvailablePieces();
+        ArrayList<Piece> gp = new ArrayList<Piece>();
+        ArrayList<Space> availableSpaces = b.getAvailableSpaces();
+
+        for(int i = 0; i<availablePieces.size(); i++){
+            for(int j = 0; j<availableSpaces.size(); j++){
+                availableSpaces.get(j).receivePiece(availablePieces.get(i));
+                if(b.checkForQuarto()){
+                    gp.add( availablePieces.get(i));
+
+                    availableSpaces.get(j).removePiece();
+
+                    break;
+                }
+            }
+        }
+
+        if(gp!=null){
+            for(int i = 0; i<gp.size(); i++){
+                if(p == gp.get(i))
+                    return true;
+            }
+        }
+        return false;  
+
+    }

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Line
+comment0.text=\r\n\ The\ \r\n
+comment1.params=spaces
+comment1.target=Line(Space[])
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Line\r\n
+comment2.params=
+comment2.target=Line()
+comment3.params=
+comment3.target=boolean\ isFull()
+comment3.text=\r\n\ STUDENTS\ MUST\ COMPLETE\ THIS\ METHOD\r\n\ \r\n\ Return\ true\ if\ this\ line\ is\ full.\r\n\ Full\ is\ defined\ as\ all\ spaces\ in\ the\ line\ contain\ pieces\r\n\ the\ .isEmpty()\ method\ of\ Space\ objects\ will\ be\r\n\ helpful\ to\ determine\ if\ a\ space\ has\ a\ piece.\r\n\ \r\n
+comment4.params=
+comment4.target=boolean\ isQuarto()
+comment4.text=\r\n\ STUDENTS\ MUST\ COMPLETE\ THIS\ METHOD\r\n\ \r\n\ Return\ true\ if\ this\ line\ has\ a\ quarto\ in\ it\r\n\ To\ have\ a\ quarto,\ a\ line\ must\ be\ full\ AND\r\n\ all\ the\ pieces\ in\ all\ its\ spaces\ must\ share\ at\ least\ one\ common\r\n\ attribute.\r\n\ \r\n\ Helpful\ methods\ in\ other\ classes\ include\:\ \r\n\ \r\n\ Space\ class\:\r\n\ \ .getPiece()\ \ return\ its\ Piece\ object\ (Null\ if\ empty)\r\n\ \ \r\n\ Piece\ class\:\r\n\ \ .is(int\ attributeConstant)\ \ \ return\ true\ if\ this\ piece\ has\ the\ \r\n\ \ \ \ \ \ \ \ \ \ specified\ attribute\r\n\ \ Attributes\ are\ given\ in\ the\ final\ static\ public\ variables\r\n\ \ \ \ \ \ Piece.DARK\ \=\ 0,\ Piece.ROUND\ \=\ 1,\ Piece.TALL\ \=\ 2,\ Piece.HOLLOW\ \=\ 3;\r\n\ \ for\ example\ a\ Dark,\ Square,\ Short,\ Hollow\ Piece\ in\ variable\ myPiece\r\n\ \ \ \ \ \ would\ return\r\n\ \ \ \ \ \ \ \ \ \ is(Piece.DARK)\ \ returns\ true\r\n\ \ \ \ \ \ \ \ \ \ is(Piece.ROUND)\ returns\ false\r\n\ \ \ \ \ \ \ \ \ \ is(Piece.TALL)\ \ returns\ false\r\n\ \ \ \ \ \ \ \ \ \ is(Piece.HOLLOW)returns\ true\r\n
+comment5.params=s
+comment5.target=void\ addSpace(Space)
+comment6.params=
+comment6.target=Space[]\ getSpaces()
+comment7.params=ln
+comment7.target=void\ setLineNumber(int)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

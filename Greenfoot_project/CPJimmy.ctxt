@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=CPJimmy
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ CPJimmy\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=name
+comment1.target=CPJimmy(java.lang.String)
+comment2.params=b\ p
+comment2.target=Space\ selectSpaceForPlacement(Board,\ Piece)
+comment3.params=b
+comment3.target=Piece\ selectPieceToPlace(Board)
+comment4.params=b
+comment4.target=int\ Hopeless(Board)
+comment5.params=l
+comment5.target=boolean\ isTripto(Line)
+numComments=6

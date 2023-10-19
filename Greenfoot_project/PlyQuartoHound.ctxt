@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=PlyQuartoHound
+comment0.text=\r\n\ \ \r\n
+comment1.params=name
+comment1.target=PlyQuartoHound(java.lang.String)
+comment2.params=b\ p
+comment2.target=Space\ selectSpaceForPlacement(Board,\ Piece)
+comment2.text=\r\n\ for\ each\ available\ Space,\ place\ a\ piece.\ \ If\ quarto\ \r\n\ is\ made\ then\ return\ that\ space\ as\ the\ one\ to\ place\ the\ piece\r\n\ otherwise\ remove\ that\ piece\ and\ continue.\r\n\ \r\n\ If\ no\ quartos,\ then\ just\ use\ superclass's\ method\ to\ randomly\ \r\n\ select\ a\ space\r\n
+numComments=3
