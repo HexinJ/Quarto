@@ -7,3 +7,4 @@ https://www.pennington.org/community/students/quarto
 ## Rules:
 Each player chooses one piece and places the piece on a spot on the board. Have fun playing it with your friends!
 
+![](https://github.com/HexinJ/Quarto/blob/main/Quarto.png)
